@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>国赋资信</title>
+
+    <!-- Bootstrap -->
+    <link  href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="../node_modules/blueimp-gallery/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href="./css/docs.css" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+    <style>
+    .thumb128 {
+      width: 128px !important;
+      height: 128px !important;
+    }
+    p {
+      text-indent:2em;line-height:30px;
+    }
+    </style>
+
+  </head>
+  <body data-spy="scroll" data-target="#scroll-spy">
+    <div class="container" id="content" tabindex="-1">
+      <div class="well row">
+        <div class="col-sm-2 text-center">
+          <img class="thumb128" src="./img/logo.png">
+        </div>
+
+        <div class="col-sm-10">
+          <h1>ISOTAF, 国际对称性财赋资信系统(税务资信)</h1>
+          <h2>ISO  Symmetric Value and Credit Talent: Tax/Fin. Link</h2>
+          <h4 class="text-right">Provide the platform for credibility,  value brand-names,  rights,  duties,  business, etc.</h4>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-2" id="scroll-spy">
+          <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" data-spy="affix" data-offset-top="205">
+            <ul class="nav bs-docs-sidenav">
+              <li><a href="#intro">Overview</a></li>
+              <li>
+                <a href="#case">Contents</a>
+                <ul class="nav">
+                  <li><a href="#overview">Overview</a></li>
+                  <li><a href="#case">Cases</a></li>
+                  <li><a href="#background">Backgroud</a></li>
+                  <li><a href="#theory">Synopsis of The theory</a></li>
+                  <li><a href="#machine">Mechanism design</a></li>
+                  <li><a href="#application">Application</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li><a href="#conclusion">Conclusion</a></li>
+                  <li><a href="#annex">Annex</a></li>
+                  <li><a href="#join">Join us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-10">
+          <div id="intro" class="panel panel-default">
+            <div class="panel-body">
+              <div class="text-center">
+                <img style="width:470px;height:246px;" src="./img/en/webhome.png">
+              </div>
+
+              <h4>IllUSTRATION</h4>
+              <div class="text-center">
+                <a href="./img/en/intro-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/intro-1.png" class="img-thumbnail" style="height:300px;">
+                </a>
+                <a href="./img/en/intro-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/intro-2.png" class="img-thumbnail" style="height:300px;">
+                </a>
+              </div>
+
+              <hr>
+              <h4>Preface（前言）</h4>
+              <div class="text-center">
+                <a href="./img/en/preface-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/preface-1.png" class="img-thumbnail" style="height:200px;">
+                </a>
+              </div>
+              <p>In 2008, the financial crisis hit the global economy and left long-lasting influences.</p>
+              <p>The crisis once again revealed the failure of market—greed, fraudulence, crime, evil, Information asymmetry, and even social apocalypse or kalpa.</p>
+              <p>[2008年世界金融危机爆发，影响深远。危机再次暴露市场的失效——贪婪、欺诈、罪恶、信息不对称乃至社会灾变等。]</p>
+
+              <hr>
+              <h4>Question</h4>
+              <p>In this context , </p>
+              <p>Q1: How should we rate the value and credit of persons, groups, or businesses? </p>
+              <p>Q2: How should we prevent fraudulence, curb greed, and mitigate information asymmetry? </p>
+              <p>Q3: How should we help people establish instant credibility and value brand-names(recognition) and provide business platform?</p>
+              <p>[在此背景之下，如何评价单位、个人、业务的价值与资信？如何防止造假，抑制贪婪，减缓信息不对称问题？如何帮助人们建立资信和价值品牌(认可)、提供业务平台？]</p>
+
+              <hr>
+              <h4>Discussion</h4>
+              <p>This article discusses that tax is the intersection of all participants in the market or society, also the unity of distribution tool and value measure. So, it is needful and feasible to establish a system: </p>
+              <p>Symmetric Value and Credit Talent named Tax/Fin. Trone (Chains) which weighs/measures the value or credit by the following functional equation: </p>
+              <p>T(x,y)*= Lg x(tax)* + x(tax)/y(relative value of tax) (%) … errata( erring stain record )</p>
+              <p>Where T denotes tax, x denotes the tax category and amount,  y denotes the relative value of tax (or the comparable data series with tax, such as comparable goods, logistics and invoice, sales, cost, income, etc.),  errata denotesthe erring stain record. </p>
+              <p>That is to say, we establish a value and credit system through a counteracting institution which balances  financial accountingdata or other factors by tax, assesses and adjuststhe participant’s  condition (includingfinance,account,wealth, credit,quality，rights，duties, etc.) matching with taxation, further distinguishes good from evil，enhances goodness and chastise evil, which  aims to mitigate information asymmetry, and leads a healthy value orientation, then improve upon the market and society.</p>
+
+              <hr>
+              <h4>Course</h4>
+              <p>In 2007—2008, This system was originated. Since then, it is rapidly spread and appliedin the world in different ways, providing softwares such as Online for ordinary participants and listed companies,analysis of value and credit on forty thousand firms.</p>
+              <p>Its principle has become a credit standard by Chinese government and banks(SAT Issue No.96,2015,  No.156,2015 ) .</p>
+              <p>本体系首创于2007—2008年（其作者拥有世界唯一的自主知识产权并有国家证明）。自那时起，该系统在世界以多种方式快速传播、使用，提供服务软件，如服务于一般事主和上市公司的在线软件。目前已提供对全球五万家上市企业和百万家一般企业的价值与资信的分析。其原则已经作为中国政府和银行的一种信用标准（国税总[2015]96号、156号）并已参加国家信用标准发布暨高峰论坛。</p>
+
+
+            </div>
+          </div>
+
+          <div id="overview" class="panel panel-default">
+            <div class="panel-heading">
+              Overview（概述）
+            </div>
+            <div class="panel-body">
+              <p>Nowadays, lots ofdata or indexes are easy to manipulate at very low cost, while hard and expensive for users to verify.</p>
+              <p>现行诸多数据或指标，容易造假，且造假成本低，但检测的难度和成本大。</p>
+
+              <p>Taxation is the state machine based on the value of public goods. It is the distribution of wealth, and the intersection that relates to all market participants, including supply, capital, manufacture, service, purchase，etc. Further, it reflects and adjuststhe condition of market participants. As thus, building on the mathematical function(tax, financial information, etc.), we can establish a system: Symmetric Value and Credit Talent, named Tax/Fin. Tronefor market participants.</p>
+              <p>税赋是基于公用品价值的国家机器，是对财富的分配，是市场各方——包括供应、资本、生产、服务、购买等各方关系的交集，进而反映并调控市场诸方状况。因此，基于函数(税收,财务信息等)，我们可以建立一套服务于市场各方的系统：对称性价值与资信天赋——称为“赋权称链”。</p>
+
+              <p>Goods Value and Tax Value in The Market:</p>
+              <p>Circle 1-5 denotes respectivelyamarket participant: Supplier, Capital, Manufacture,Service, Purchase and each value V0 (1-5)(goods value without tax).</p>
+              <p>Circle 6 denotes tax and its value Vt (public goods value).</p>
+              <p>The total value of goods is made up of V0(1-5) and Vt and other. </p>
+              <p>Circle 6 (taxation)  is  the intersection of all participants in the market and society, and a combination of economy leverage,  value scale  (card),  information tool,  monitor,  adjustment,  control,  and stabilizer.</p>
+
+              <p>That is to say, we develop an anatomy of economics, confronting finance or other factors with the relative tax. This anatomy distinguishes the different value partsof market participantsas Vt（tax value)，V0(1-5)(each participant goods value without tax), V△(appreciation value) and Vi(information value), linking finance and tax and tax adjustment with the function( tax, factors relative to tax).Then we get its system and ranking.</p>
+              <p>The system aims to lead value orientation and value appreciation, improve transparency and self-discipline and heteronomy, alleviate the information asymmetry, control risk and prevent crisis, promote fairness, and stimulate healthy market and social development.</p>
+
+              <div class="text-center">
+                <a href="./img/en/overview-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/overview-1.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/en/overview-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/overview-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="case" class="panel panel-default">
+            <div class="panel-heading">
+              Cases
+            </div>
+            <div class="panel-body">
+              <h4>1. 投资大亨圈钱圈地，骗贷骗婚，骗高官杀行长</h4>
+              <div class="text-center">
+                <a href="./img/case3-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/case3-2.png" class="img-thumbnail" style="height:156px;">
+                </a>
+              </div>
+              <br>
+              <p>“投资大亨”吴东，他是中美天元集团实际控制人，自称清华大学金融博士，高级经济师，注册执业药师，早年创办北海新特药药业公司及海生药业集团。2014年9月24日，吴某因涉嫌骗取贷款罪被批准逮捕。</p>
+              <p>2014年，柳州银行对吴东家族的贷款进行风险排查，引发广西博白籍商人吴东家族成员不满，吴东的儿子雇请社会人员当街将柳州银行董事长李耀清砍成重伤。——没想到，这起砍伤事件牵出吴东家族的百亿骗贷大案。警方认定，吴东——这个曾在广西政商圈神话般崛起的生意人和他的家族企业在2010年至2014年期间，涉嫌成立多家空壳公司伪造各种贷款资料、非法从柳州银行拿到328亿元贷款。其中，涉及“骗取银行贷款”175亿元，涉及“贷款诈骗”153亿元。</p>
+              <p>广西金融界人士估计，吴东家族从各大银行机构贷出的以新还旧循环贷款，有可能高达600亿，目前部分贷款形成不良信贷。吴东家族及其企业总共欠下柳州银行、北部湾银行、光大银行、农业银行、兴业银行、浦发银行、广西农信社117亿元债务。</p>
+              <p>知情人士透露，吴东前期的资本运作靠的是“地生钱、钱再生地”，即圈地———抵押贷款———贷款后再圈地。后期则骗得省部级高官信任，与其女结婚，让他们掩护开辟新的骗贷途径。伪造贷款资料使用大量虚假印章——广西隆安县国土资源局、辽宁盘山县国土资源局、盘山县人民政府的假公章，还有玉林市国土资源信息中心业务专用章、玉林市国土资源局土地证专用章等人私刻假章。这些印章和资料均用于办理抵押贷款。</p>
+
+              <hr>
+              <h4>2.中技系成清波操控股市和债券</h4>
+              <div>
+                <a href="./img/case2-1.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/case2-1.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>中技系成某控股三家上市公司实业资产规模曾超过200亿元，相关证券曾一路上扬。从2013年开始成清波由于非法集资，至2014年债务高达38亿。2015年6月以非法集资正式立案。ST成城退市。</p>
+                <div class="clearfix"></div>
+              </div>
+              <br>
+
+              <div>
+                <a href="./img/q-zjx.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/q-zjx.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>资本玩家成清波，曾于2006年度列胡润榜第97名，控股着多家上市公司 （*ST国创600145，*ST国恒000594， *ST成城600247，*ST博元600656，恒立实业000622），他的中技实业资产曾超200亿元，相关证券曾一路上扬，股价成倍增长。使用税务资信分析其财务状况的人们，曾非常吃惊，并一度产生不同的判断。</p>
+                <div class="clearfix"></div>
+              </div>
+              <br>
+
+              <div>
+                <a href="./img/case2-3.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/case2-3.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>2015年1月12日，上海，约30名投资刘永盛项目购买相关产品的投资人，集体到上海银监会信访部门求助，希望有关方面能尽快敦促相关银行归还本金。据介绍，在2012年9月到11月间，投资者先后各自在江苏银行、宁波银行和民生银行通过刘永盛等人购买了一款名为“上海恒盛一号尚海湾二期项目”和“上海市闵行区动迁安置房项目二期D款”的理财产品，该产品于2013年11月下旬全部到期。但理财产品到期后，投资人的钱款一直没有任何下落。此前曾有媒体报道，刘永盛所募集的上亿元资金实际是通过优道投资所管理的乾灏基金流向了国创能源的账户，并通过国创能源转给了由成清波控制的“中技系”。目前，刘永盛已经以涉嫌非法吸收公众存款为由被上海经侦部门立案调查。图为投资者手持横幅情绪激动。</p>
+                <div class="clearfix"></div>
+              </div>
+              <br>
+
+              <hr>
+              <h4>3. 旭光集团财务造假，老板携十亿跑路</h4>
+              <div class="text-center">
+                <a href="./img/case4-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/case4-1.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/case4-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/case4-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <p>李炎涉嫌诈骗、非法集资、伪造金融凭证等多项罪名被调查。据媒体透露，李炎已失去联系，或携数十亿元巨款跑路。另据了解，李炎所掌控的华通系除了目前已披露的中重工、德阳化学、德阳电子、旭光资源等公司外，其在兰州还涉足房地产，更在巴基斯坦拥有一家商业银行!</p>
+
+              <br>
+              <div>
+                <a href="./img/case4-3.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/case4-3.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>李炎旗下的中国旭光高新材料集团有限公司（China Lumena New Materials Corp.，HKG0067）是一间于港交所上市的公司，主要业务为芒硝开采、制售。它系中国唯一获批认证的药用芒硝生产商，其“川眉”“商标曾被评为“中国驰名商标”。2009年6月16日于港交所主版上市。李炎在2009年胡润矿产富豪榜列第16位。基于相关信息与数据，2014年3月25日， 美国研究机构Glaucus质疑其财务造假造假，并将目标价定为0元。当日股票大跌7.4%后停牌。</p>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="background" class="panel panel-default">
+            <div class="panel-heading">
+              Backgroud
+            </div>
+            <div class="panel-body">
+              <h4>Background, The Financial Crisis</h4>
+              <div class="text-center">
+                <a href="./img/en/bg-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-1.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <p>In 2008, the financial crisis hit the global economy and left long-lasting influences. The crisis once again revealed the failure of market—greed, fraudulence, crime, evil, Information asymmetry, and even social apocalypse or kalpa. </p>
+              <div class="text-center">
+                <a href="./img/en/bg-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <p>2008年世界金融危机爆发。危机再次暴露市场和体制的缺陷——资本的贪婪欺诈、造假投毒、信息不对称和相关体制失效，乃至经济和社会危机等。其危害至今非但尚未根本消除，甚至还在蔓延。</p>
+
+              <hr>
+              <h4>Markets with asymmetric information</h4>
+              <div class="text-center">
+                <a href="./img/en/bg-3.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-3.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <p>The Relationship among Market Participants: Both Cooperation And Competition.Circle 1-5 denotes respectively a market participant: Supplier, Capital, Manufacture, Service, Purchase.</p>
+              <p>Suffering from the problems above in the financial and economic system, every market participant, including the government, needs to know how to anatomize markets and acquire necessary information.</p>
+              <p>In the market, there is a opposite relationship of both cooperation and competition among all market participants–– supplier, capital, manufacture, service, purchaser.</p>
+              <p>市场诸方关系：合作与竞争。圈1-5分别表示市场一方: 供货方、资本方、生产者、服务方、购买方。经受着财经体系中的上述问题，每个市场主体，包括政府，都需要知道如何分析市场并获得必要的信息。在市场体制下，市场的各方——供货方、资本方、生产方、服务方、购买方等存在着既合作又竞争与的相对关系。</p>
+
+              <hr>
+              <h4>Market Failure</h4>
+              <div class="text-center">
+                <a href="./img/en/bg-4.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-4.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <p>Markets with asymmetric information：participants on one side of the market have much better information than those on the other. And that, self-interested market behavior does not always act fairly orproduce felicitous social consequences.</p>
+              <p>This creates an imbalance of power in transactions among different participants, which can sometimes cause the transactions to go awry, a kind of market failure in the worst case.Examples of this problem areunscrupulous spoof，adverse selection, moral hazard, or information monopoly.</p>
+              <p>Even worse, it may cause economic and social crisis.</p>
+
+              <hr>
+              <h4>Markets with asymmetric information</h4>
+              <div class="text-center">
+                <a href="./img/en/bg-5.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-5.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <p>In 2001,  The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel was awarded to George Akerlof, Michael Spence, and Joseph E. Stiglitz for their "analyses of markets with asymmetric information"</p>
+              <p>Facing information asymmetry (in markets or societies ) and market failure,  every participant  including  the government, needs to know how to acquire necessary information that are essential to help market management，and allocating resources，and correcting “mistakes” , etc.</p>
+
+              <hr>
+              <p>In view of the problems stated above, many economists and experts frequently call for more concern about market failure,and improvingmarket mechanisms, such as reducing Information asymmetry through intermediary market institutions called counteracting institutions，and Brand-names，and certification, etc.</p>
+
+              <hr>
+              <h4>Mechanism design theory 机制设计理论</h4>
+              <p>Leonid Hurwicz,  Eric S. Maskin,  Roger B. Myerson</p>
+              <p>Informational efficiency,</p>
+              <p>Incentive compatibility</p>
+              <div class="text-center">
+                <a href="./img/en/bg-6.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/bg-6.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+
+              <hr>
+              <h4>Market Failure and Government Failure</h4>
+              <p>William R. Keech ，Michael C. Munger ，Carl Simon</p>
+
+            </div>
+          </div>
+
+          <div id="theory" class="panel panel-default">
+            <div class="panel-heading">
+              Synopsis of The theory
+            </div>
+            <div class="panel-body">
+              <h4>Tax and Price(税收与价格)</h4>
+              <div>
+                <a href="./img/en/theory-1.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/en/theory-1.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>Tax is a distribution of wealth.</p>
+                <p>It is also a price that citizens pay for public goods.( Refer to: Lindahl prices, also called Lindahl taxes,  proposed by Swedish Economist Erik Robert Lindahl in 1919 .)</p>
+                <p>From the perspective of taxation system and other rules,we can derive the following formula: </p>
+                <p>P(total price of goods)=P0(price of goods without tax) + Tax</p>
+                <p>Tax=P(price of goods) * Tax Rate</p>
+                <div class="clearfix"></div>
+              </div>
+
+
+              <hr>
+              <h4>Tax value and information 税收价值与信息论</h4>
+              <div class="text-center">
+                <a href="./img/en/theory-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/theory-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/en/theory-3.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/theory-3.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <ul>
+                <li>1.
+                  <p>V(total value of goods)</p>
+                  <p>=V0(1-5): goods value without tax – relative value of tax, representing relevantrights and duties</p>
+                  <p>+Vt: public goods value – absolute value of tax, representing public rights and duties</p>
+                  <p>+V△:appreciation value– combination leading to value increase/decrease or surplus value</p>
+                  <p>+Vi:information value–combination leading to information value</p>
+                </li>
+                <li>2.
+                  <p>Vt=F(V), V=F'(Vt)</p>
+                  <p>(a mathematic function and inverse function between Vt and V）</p>
+                </li>
+                <li>3.
+                  <p>Taxation is the intersection of all participants in the market and society, and a combination of economy leverage, value scale (card), information tool, monitor,  adjustment, control, and stabilizer.</p>
+                </li>
+              </ul>
+              <p>That is to say: In the market economics, taxation is the intersection of all market participants. It is a distributionof goods, a price that citizens pay or return for public goods. The price also reflects therelevant value in a measure. We develop an anatomy of finance and value, confronting finance with the relevanttax, distinguishing the different parts of value for market participants as V0(1-5): goods value without tax – relative value of tax;  Vt: public goods value – absolute value of tax; V△:appreciation value of combination;  Vi: information value of combination, etc.</p>
+              <p>Further, taxation is a combination of economic leverage, self-stabilizer, value measure, information tool, monitor and adjustment. To some degree, it reflects and adjusts the condition of market.</p>
+            </div>
+          </div>
+
+          <div id="machine" class="panel panel-default">
+            <div class="panel-heading">
+              Mechanism design
+            </div>
+            <div class="panel-body">
+              <h4>ISOTAF , Symmetric Value and Credit Talent: Tax/Fin. Trone. </h4>
+              <br>
+
+              <div>
+                <a href="./img/en/mac-1.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/en/mac-1.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>Based on the contents of the paragraph above，we can see that it is needful and feasible to establishes a symmetric Value and Credit Talent for market participants with function (tax, fin.). Let us describe this system of the form T(x,y)*  (or called Value-Credit Weight index, T* for short ).</p>
+                <p>Resulting from the tax law and financial regulation, government taxation levy, tax assessment and actual payment, this system gains highly valuable credibility on good authority.</p>
+                <div class="clearfix"></div>
+              </div>
+
+              <hr>
+              <h4>Talent 财赋资信的衡量</h4>
+              <div>
+                <a href="./img/en/mac-2.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/en/mac-2.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>T(x)*G(y)=Vt(absolute value of tax)+V(relative value of tax) </p>
+                <p>…Errata[erring stain record]Equation </p>
+                <p>=Lgx[tax(thousand)]*G(y)[x(tax)/y(relative value of tax)(%)</p>
+                <p>…Errata[erring credit]Equation </p>
+                <div class="clearfix"></div>
+              </div>
+              <p>Where T denotes tax,and X denotes the tax category and amount[such as t(turnover tax), r(property and resource tax), i(income tax), s(social security tax), o(other tax),whole tax (nonuse symbols)].</p>
+              <p>y denotes the relative value of tax[ the comparable data series with taxation such aslogistics and fund Flow, information flow,Invoicechain, Internet of things，etc.Orthe relative financial accounting informationwith x(tax) such ascomparable as(asset), cp(capital), eq(equity), it(interest), lb(liabilities), tr(turnover or revenue), vl(value), bs(business), cs(cost), es(energy source),  gd(goods), ic(income), mt(materials), ps(person), pr(property and resource), tc(technology), whole factors(nonuse symbols), etc. ]</p>
+              <p>* (asterisk) denotes star level. G denotes grade, and G(y) denotes the grade of x/y (%).</p>
+              <p>Errata[erring credit]denotes the index of Special Tax Adjustments [Lgtax-adjustment(thousand)] concerning vicious finance such as duty evasion,  fraud, bribe，penalty，and other unscrupulous income or expense.</p>
+
+              <hr>
+              <h4>Score 财赋资信的计算</h4>
+              <div>
+                <a href="./img/en/mac-3.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/en/mac-3.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>For example:</p>
+                <p>In thousands of USD (K for short),assume that Factory Arealized A goods turn over 800 during a period , and paid or assumed tax 100[includingT(t): turn over tax 50 composed ofinput VAT of raw materials 30 and outputVAT of sales 20, T(s): social security tax 10, T(r): resource tax 10,  T(i): income tax 20, T(o): other tax 10]at the same time. Other than that, the Special Tax Adjustments concerning vicious finance is 10 (Note: the victim needs to reduce the tax payment for the adjustment). Then:</p>
+                <p>T(x)*G(y)= Lg[x(tax)] *x(tax)/y [relative ](%)…Errata[ erring credit ]</p>
+                <p>T(x)*G(tr)= Lg[x(tax)(K)] * x(tax)/tr[relative (turnover)](%)…Errata[ erring credit ]</p>
+                <p>=Lg100(K) *100/800(tr)(%)…Lg[ (Special Tax Adjustments)10(K)]</p>
+                <p>= Lg10<sup>2</sup>(K) * 12.5(tr) (%) … Lg101(K)</p>
+                <p>=2*(K)12.5(tr) … 1(*)</p>
+                <p>Read as：2Star, 12.5(tr)rating…Erring credit: 1 BlackStar.</p>
+                <div class="clearfix"></div>
+              </div>
+
+              <p>Likewise, we can calculate: T[x, t(turnover tax), s(social security tax), r(property and resource tax), i(income tax), o(other tax)…]*G[y, as(asset), cp(capital), eq(equity), it(interest), lb(liabilities), tr(turnover), vl(value), … ].</p>
+              <p>Vt represents the absolute value of tax——the amount (or order of magnitude) thattaxpayer pays; V(y) represents relative value of tax, or the grade of x(tax)/y(relative quantity) (%);errata[ erring credit] represents the index of Special Tax Adjustmentsconcerningerring stain record.Together, they constitute the measure chains of tax/fin. for all of the market participants.</p>
+              <p>Also because of the symmetric relationship between tax and certain proportions of finance (or other factors), when financial manipulation or adverse circumstancesoccurs, the system can reveal or control it symmetricallyin a way.</p>
+              <p>For example, in the case above, assume thatbecause of financial manipulation or other reason, the turnoverfigure becomes $8000K from $800K andalmost nothing else changes.Well then,the relative valueof G(tr)declines instead of increasing from 12.5(r)(%) to 1.25(r)(%). </p>
+              <p>∵G(tr)= x(tax)/tr(turnover)(%)</p>
+              <p>∴(Normal) G(tr)= 100/800=12.5(t)(%).</p>
+              <p>(Particular)G’(tr)= 100/8000=1.25(t)(%).</p>
+              <p>Deviationrate=(Normal) G(tr) / (Particular) G’(tr) (%)=12.5 /1.25(%)=1000 (%).</p>
+              <p>It reflects obviouslythat Factory A may have serious problemssuch as manipulation and fraud, or operating condition, or product quality, etc.</p>
+
+
+              <hr>
+              <h4>Constellation</h4>
+              <div>
+                <a href="./img/en/mac-4.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/en/mac-4.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>Based on the above, we can establis “Int'l Star-Grade Symmetric Value and Credit Talent——Tax/Fin.TroneCoordinates”: </p>
+                <p>Different T(x)* and G(y) are distributed on the area built by X-axis and Y-axis;Vice versa.</p>
+                <p>We can then get ranks of this system (about brand, contribute, goods, credit, finance, value, wealth, yield，even nation or region, ect.)</p>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="application" class="panel panel-default">
+            <div class="panel-heading">
+              Application
+            </div>
+            <div class="panel-body">
+              <p>In 2007—2008, This system was originated. Since then, it is rapidly spread and applied in the world in different ways, including softwares such as Online or Wechat for ordinary participants and listed companies, providing data of  T(x,y)* analysis on forty thousandEast Asia and North Americafirms.</p>
+              <p>Its principle has become a credit standard by Chinese government and banks (SAT Issue No.96, 2015, No.156, 2015) .</p>
+              <div class="text-center">
+                <a href="./img/adv-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/adv-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <br>
+              <hr style="border-style:dashed;">
+              <p class="h4 text-center" style="color:red">国家税务总局 中国银行业监督管理委员会  关于开展“银税互动”…的通知</p>
+              <p class="h4 text-center" style="color:red">税总发[2015]96号，税总发[2015]156号</p>
+              <hr style="border-style:dashed;">
+              <p class="h4 text-center" style="color:red">2016年11月1日，中共中央 深改小组关于“诚信建设”的三个指导意见</p>
+              <hr style="border-style:dashed;">
+              <p class="h4">中国国家税务总局、银监委、各大银行、境内外相关财经机构及多方面人士等，都力推或积极应用这一体系。</p>
+              <p>This system has broad applicationwith rich connotation, serving the economy and society. It can be used for a measurement of value and credit, Value Rank, market brand, management tool, economic platform, self-discipline and heteronomy, and so on.</p>
+              <div class="text-center">
+                <a href="./img/en/app-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/app-1.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <p>In particular, a substantial portionof research in the field of accounting can be framed in terms of this system, since accounting involves the transmission of an enterprise's information from those who have it to those who need it for decision-making. Likewise, financial economists apply this system in studies of differentially informed financial market participants (insiders, stock analysts, investors, etc.). It has also seen some use in behavioral economics as well.</p>
+              <div class="text-center">
+                <a href="./img/en/app-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/app-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/en/app-3.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/app-3.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+
+              <p>Below is snapshots of this system application on Goldman Sachs Group and Lumena New Materials Corp ( suspected fraud )</p>
+              <p>Log on：www.isotaf.com/.(Oropen WeChat，add contacts  税务资信），then visit webpage Int’l (or go directlyto the webpage: www.isotaf.com/gf.php).Please input the company name (or abbr., code) in Search box .( see the following diagram.)</p>
+              <div class="text-center">
+                <a href="./img/en/app-4.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/app-4.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/en/app-5.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/app-5.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+
+              <h4>本体系应用广泛</h4>
+              <div class="text-center">
+                <a href="./img/app-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/app-1.png" class="img-thumbnail" style="width:800px;">
+                </a>
+              </div>
+
+              <hr>
+              <h4>本体系的优势与作用及发展</h4>
+              <div>
+                <a href="./img/adv-1.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/adv-1.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>本体系拥有世界唯一自主知识产权。它适应经济和社会发展要求， 可根据事主税收与财务数据，作出独立的、唯一的财赋资信评定，得到了多方面的肯定和赞誉</p>
+                <div class="clearfix"></div>
+              </div>
+
+              <hr>
+              <h4>面向世界，面向未来。 Face the world, Face the future. </h4>
+              <div>
+                <a href="./img/adv-3.png" style="margin-right:20px;" class="inline pull-left" data-gallery>
+                  <img class="lazy" data-original="./img/adv-3.png" class="img-thumbnail" style="width:256px;">
+                </a>
+                <p>国赋资信体系根据赋税/财富的配比关系处理财经和资信问题，检测宏观和微观经济状况，在财务、金融、证券、投资、交易、质量、劳资等多方面，帮助单位、个人、项目和社会，竖立价值、资信、规范品牌，防范风险与危机，抑恶扬善，维护公平、效率与经济健康发展，切合欧美的财税改革（反欺诈与逃税等），服务于近年G20倡导的社会诚信建设、财税金融改革和“全球税收合作、打击逃税、反腐合作，全球经济与金融秩序重建等新政。</p>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="team" class="panel panel-default">
+            <div class="panel-heading">
+              Team
+            </div>
+            <div class="panel-body">
+              <h4>部分委员和专家—现任或曾任职务</h4>
+
+              <div>
+                <a href="./img/team-0.png" style="margin-right:20px;" class="inline pull-right" data-gallery>
+                  <img class="lazy" data-original="./img/team-0.png" class="img-thumbnail" style="height:300px;">
+                </a>
+                <p>王寿仁 — 法国巴黎证券亚洲区业务主管</p>
+                <p>王宇廷 —  汇丰（美国）银行、德意志银行大区行长</p>
+                <p>赵  劲 — 德勤（中国上海）风险监控总监</p>
+                <p>克里翰 — 北德共商联合会主席</p>
+                <p>杨海山 — 汇丰证券  亚洲区交易部主管</p>
+                <p>王嘉枢 — 摩根史丹利证券（台北）研究部主管</p>
+                <p>叶震宙 — 摩根大通证券（台北）总经理</p>
+                <p>刘会林 — 兴华会计师事务所董事</p>
+                <p>唐俊华 — 江苏永衡昭辉律师事务所主任</p>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="conclusion" class="panel panel-default">
+            <div class="panel-heading">
+              Conclusion
+            </div>
+            <div class="panel-body">
+
+              <div class="text-center">
+                <a href="./img/en/conclusion-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/conclusion-1.png" class="img-thumbnail" style="height:196px;">
+                </a>
+                <a href="./img/en/conclusion-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/en/conclusion-2.png" class="img-thumbnail" style="height:196px;">
+                </a>
+              </div>
+              <p>Since the dawn of taxation history, numerous taxpayers have paid tremendous amounts of tax all around the world. However,  the society lacks a systematicappraisement for all taxpayers. </p>
+              <p>The primary application of this system is to supplysuch appraisement fortaxpayers,  maintain taxpayers' rights and interests, even provide instant value-credit brand (recognition).</p>
+              <p>A lot of factors determine that market participants have the necessity, right, and possibility to utilize this system.  Those factors include the relationship between taxation and market and nation, the nature of tax (asthe intersection of all market participants), the nature of a public goods, theory of Asymmetric Information, taxpayers' rights and interests, and the Public Right to Know.</p>
+              <p>In conclusion,  there’re a lot of things that need to be and can be achieved through proper application of this system. The T(x)* part can reflect the absolute quantity of financial data or other datathroughthe absolute value of tax, and lead the value ideology, value appreciation, brand image.Whilethe G(y) part can reveal the relative quantityof financialor other datathrough the counteracting institutions  ( includingcounter check of Tax/Fin, contribution/rights, etc.)  And that,  the Errata[erring credit] part can revealthe erring stain record and credit adjustmentsby Special Tax Adjustments. All together, theycan curb greed and fraudulence, monopoly and abrupt profit, privilege and unfairness, sequentiallyincrease market transparency, and reduce information asymmetry, developself-discipline and heteronomy, </p>
+              <p>Further, this system distinguishes good from evil，enhances goodness and chastise evil, promote fairness and ensure human right, and leads a healthy value orientation, then improve upon the market and society.</p>
+            </div>
+          </div>
+
+          <div id="annex" class="panel panel-default">
+            <div class="panel-heading">
+              Annex <small>获奖证书、知识产权、相关报道和活动等</small>
+            </div>
+            <div class="panel-body">
+              <h4>获奖证书</h4>
+              <div>
+                <a href="./img/annex-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/annex-1.png" class="img-thumbnail" style="height:256px;">
+                </a>
+              </div>
+
+              <hr>
+              <h4>软件著作权证书</h4>
+              <div>
+                <a href="./img/annex-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/annex-2.png" class="img-thumbnail" style="height:256px;">
+                </a>
+              </div>
+
+
+              <hr>
+              <h4>媒体报道</h4>
+              <div class="text-center">
+                <a href="./img/annex-3.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/annex-3.png" class="img-thumbnail" style="height:220px;">
+                </a>
+                <a href="./img/annex-4.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/annex-4.png" class="img-thumbnail" style="height:220px;">
+                </a>
+                <a href="./img/annex-5.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/annex-5.png" class="img-thumbnail" style="height:220px;">
+                </a>
+              </div>
+
+              <hr>
+              <hr>
+              <h4>参考文献 Reference</h4>
+              <p>1. Appling Tax Price Theory Erik Robert, Lindah(1891～1960, Swedish)</p>
+              <p>2. <a href="http://plato.stanford.edu/entries/hobbes/" target="_blank">The Leviathan,  Thomas Hobbes(1588～1679,English)</a></p>
+              <p>3. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?rep=rep1&type=pdf&doi=10.1.1.198.9252" target="_blank">Asymmetric Information: Theory and Applications, Lauri Auronen</a>. <p>“2 Key Concepts of the Theory”（George A. Akerlof, Michael Spence, Joseph Eugene Stiglitz，Michael Rothschild）</p></p>
+              <p>4.《说文解字》（许慎）、《康熙字典》(张玉书、陈廷敬)：贡、税、租、井、田。<a href="http://www.zdic.net/" target="_blank">《汉典》</a></p>
+              <p>5. 相关税收和财务制度等。如：国际会计准则（International Accounting Standards ）——7# 现金流量表——35. 36. 所得税。</p>
+              <p>6. <a href="http://v.ifeng.com/news/society/201510/01af76eb-5c73-4b23-8943-9c36a0032c2b.shtml" target="_blank">The money system ( Flemming)</a></p>
+
+              <hr>
+              <h4>相关活动</h4>
+              <div>
+                <a href="./img/team-1.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-1.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-2.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-2.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-6.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-6.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-3.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-3.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-4.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-4.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-5.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-5.png" class="img-thumbnail" style="height:128px;">
+                </a>
+                <a href="./img/team-7.png" class="inline" data-gallery>
+                  <img class="lazy" data-original="./img/team-7.png" class="img-thumbnail" style="height:128px;">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="join" class="panel panel-default">
+            <div class="panel-heading">
+              Join us
+            </div>
+            <div class="panel-body">
+              <p></p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="blueimp-gallery" class="blueimp-gallery">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery-lazyload/jquery.lazyload.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/blueimp-gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script>
+    $(function(){
+      $("img.lazy").lazyload();
+    });
+    </script>
+  </body>
+</html>
