@@ -27,6 +27,7 @@
     "html-webpack-plugin": "^2.28.0",
     "html-withimg-loader": "^0.1.16",
     "jquery": "^3.2.0",
+    "jquery-lazyload": "^1.9.7",
     "style-loader": "^0.14.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.2.1",

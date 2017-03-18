@@ -16,7 +16,7 @@ module.exports = {
         {loader: 'html-loader', options:{
           //minimize:true,
           removeComments:true,
-          attrs:['img:src', 'a:href', 'link:href', 'script:src']
+          attrs:['img:src', 'a:href', 'link:href', 'script:src','img:data-original']
         }}
       ]},
 
